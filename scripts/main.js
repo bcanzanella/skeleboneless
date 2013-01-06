@@ -14,7 +14,7 @@ require.config({
     }
 })
 
-require(['jquery', '_', 'backbone', 'text!templates/index.html', 'Handlebars'], function($, _, Backbone, IndexTemplate) {
+require(['jquery', '_', 'backbone', 'text!templates/index.html', 'handlebars'], function($, _, Backbone, IndexTemplate) {
     $(function() {
 
         var IndexView = Backbone.View.extend({
